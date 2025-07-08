@@ -61,9 +61,13 @@ def asset_creation_strategy() -> str:
         "- `manage_scene`: Manages scenes.\\n"
         "- `manage_gameobject`: Manages GameObjects in the scene.\\n"
         "- `manage_script`: Manages C# script files.\\n"
-        "- `manage_asset`: Manages prefabs and assets.\\n\\n"
+        "- `manage_asset`: Manages prefabs and assets.\\n"
+        "- `create_scriptable_object`: Creates ScriptableObjects including AICharacter and AIInteraction objects.\\n"
+        "- `modify_scriptable_object`: Read and modify properties of existing ScriptableObjects.\\n\\n"
         "Tips:\\n"
         "- Create prefabs for reusable GameObjects.\\n"
+        "- Use create_scriptable_object for AICharacter and AIInteraction creation.\\n"
+        "- Use modify_scriptable_object to adjust properties, arrays, and values.\\n"
         "- Always include a camera and main light in your scenes.\\n"
     )
 

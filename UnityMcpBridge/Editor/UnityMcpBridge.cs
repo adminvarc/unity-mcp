@@ -380,6 +380,10 @@ namespace UnityMcpBridge.Editor
                     "manage_asset" => ManageAsset.HandleCommand(paramsObject),
                     "read_console" => ReadConsole.HandleCommand(paramsObject),
                     "execute_menu_item" => ExecuteMenuItem.HandleCommand(paramsObject),
+                    "create_scriptable_object" => CreateScriptableObject.HandleCommand(paramsObject),
+                    "modify_scriptable_object" => ModifyScriptableObject.HandleCommand(paramsObject),
+                    "HandleCreateScriptableObject" => CreateScriptableObject.HandleCommand(paramsObject),
+                    "HandleModifyScriptableObject" => ModifyScriptableObject.HandleCommand(paramsObject),
                     _ => throw new ArgumentException(
                         $"Unknown or unsupported command type: {command.type}"
                     ),

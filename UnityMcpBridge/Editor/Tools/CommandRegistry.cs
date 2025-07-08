@@ -20,6 +20,8 @@ namespace UnityMcpBridge.Editor.Tools
             { "HandleManageAsset", ManageAsset.HandleCommand },
             { "HandleReadConsole", ReadConsole.HandleCommand },
             { "HandleExecuteMenuItem", ExecuteMenuItem.HandleCommand },
+            { "HandleCreateScriptableObject", CreateScriptableObject.HandleCommand },
+            { "HandleModifyScriptableObject", ModifyScriptableObject.HandleCommand },
         };
 
         /// <summary>
